@@ -2,8 +2,21 @@
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: center;
   gap: 0.75rem;
+  max-width: 750px;
+  overflow: auto;
+  padding-bottom: 0.5rem;
+
+}
+.pagination::-webkit-scrollbar {
+  height: 6px;
+  width: 10px;
+  background-color: transparent;
+}
+.pagination::-webkit-scrollbar-thumb {
+  background-color: #dfdfdf;
+  border-radius: 20px;
+  border: none;
 }
 
 .pageNumber {
