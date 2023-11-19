@@ -11,3 +11,14 @@
   padding: 1.5rem;
   min-height: 100vh;
 }
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #cecece;
+  border-radius: 20px;
+  border: none;
+}

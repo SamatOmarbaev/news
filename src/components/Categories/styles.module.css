@@ -8,13 +8,13 @@
   padding-bottom: 0.5rem;
   cursor: pointer;
 }
-::-webkit-scrollbar {
+.categories::-webkit-scrollbar {
   height: 6px;
   width: 12px;
   background-color: transparent;
 }
-::-webkit-scrollbar-thumb {
-  background-color: #d0dee6;
+.categories::-webkit-scrollbar-thumb {
+  background-color: #cecece;
   border-radius: 20px;
   border: none;
 }
@@ -35,7 +35,7 @@
 }
 
 @media (max-width: 800px) {
-  ::-webkit-scrollbar {
+  .categories::-webkit-scrollbar {
     display: none;
   }
 }
