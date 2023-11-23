@@ -1,13 +1,22 @@
 .banner {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 0.75rem;
   width: 100%;
 }
 .title {
   font-size: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
 }
 .extra {
   font-size: 0.75rem;
   color: #6c7072;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
 }
